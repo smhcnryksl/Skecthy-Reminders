@@ -2,8 +2,6 @@
 
 **Sketchy Reminders** is a friendly, hand-drawn style productivity extension for your browser. It helps you manage tasks, maintain digital wellness, and never forget important moments, all within a unique and cozy interface.
 
-![Icon](icon.png)
-
 ## 🎨 Features
 
 - **Hand-Drawn UI**: A unique, sketch-pad aesthetic that feels personal and distinct from standard material designs.

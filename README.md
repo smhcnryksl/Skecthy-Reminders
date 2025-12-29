@@ -33,7 +33,9 @@ We respect your privacy. All data is stored locally in your browser.
 This project is open-source! Feel free to fork it, submit PRs, or suggest new features.
 
 ---
-*Created by smhcnryksl!
+NOTE: This is my second time doing web based project, it may have bugs. I used AI model for html and css. I also used AI model for assistance with javascript. Soon on Chrome Web Store...
+
+*Created by smhcnryksl!*
 
 
 <img width="1920" height="1020" alt="main" src="https://github.com/user-attachments/assets/1f3450f6-26de-4419-9652-a525dbe13409" />

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder</title>
+    <style>
+        :root {
+            --sketch-black: #333;
+            --sketch-white: #fffafa;
+            --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--sketch-white);
+            font-family: var(--font-family);
+            overflow: hidden;
+        }
+
+        .container {
+            width: 90%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            margin: 10px 0 5px 0;
+            font-size: 1.4rem;
+            color: var(--sketch-black);
+            border-bottom: 2px solid var(--sketch-black);
+            padding-bottom: 10px;
+        }
+
+        .time-display {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        .description-box {
+            flex-grow: 1;
+            overflow-y: auto;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 1rem;
+            color: #444;
+            background: #fff;
+            border: 2px dashed #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background: var(--sketch-black);
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 id="notif-title">Reminder</h2>
+        <div id="notif-time" class="time-display"></div>
+        <div id="notif-message" class="description-box"></div>
+        <div class="button-group"
+            style="display: flex; gap: 10px; width: 100%; flex-wrap: wrap; justify-content: center;">
+            <button id="link-btn" style="background: #3498db; color: white; display: none;">🔗 Git</button>
+            <button id="snooze-btn" style="background: #e0e0e0; color: #333; border: 2px solid #333;">Ertele
+                (10dk)</button>
+            <button id="dismiss-btn">Tamam</button>
+        </div>
+    </div>
+    <script src="storage.js"></script>
+    <script src="locales.js"></script>
+    <script src="notification.js"></script>
+</body>
+
+</html>

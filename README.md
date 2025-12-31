@@ -20,6 +20,7 @@
   - **Advanced Silent**: Mutes absolutely everything for deep focus.
 - **Import/Export**: Easily share reminders or move them between devices using base64 codes.
 - **Multi-language**: Fully localized in **English**, **Turkish (Türkçe)**, and **Spanish (Español)**.
+- **Priority Systen**: Priority system to prioritize your tasks and bypass silent mode
 
 ## 🔒 Permissions Policy
 

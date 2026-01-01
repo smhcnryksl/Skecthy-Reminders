@@ -38,3 +38,4 @@ Sketchy Reminders works entirely offline (locally) within your browser.
 
 ---
 *Created by [smhcnryksl](https://linktr.ee/smhcnryksl)*
+Chrome Web Store: https://chromewebstore.google.com/detail/sketchy-reminders/abpjgldjkgkbdconlooljgdmacjgmmea?authuser=0&hl=tr
